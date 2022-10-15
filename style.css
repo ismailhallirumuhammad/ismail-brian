@@ -39,7 +39,7 @@ html, body {
 }
 
 li a {
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .nav-bar ul li:last-child {
@@ -52,4 +52,8 @@ li a {
     margin-left: 20%;
     padding: 15px;
     border-left: 3px solid grey;
+}
+
+p {
+    text-align: justify;
 }
