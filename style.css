@@ -38,11 +38,11 @@ html, body {
     color: white;
 }
 
-li {
+li a {
     border-bottom: 1px solid black;
 }
 
-li:last-child {
+.nav-bar ul li:last-child {
     border-bottom: none;
 }
 
