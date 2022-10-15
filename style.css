@@ -38,7 +38,7 @@ html, body {
     color: white;
 }
 
-li a {
+.nav-bar ul li a {
     border-top: 1px solid black;
 }
 
@@ -56,4 +56,16 @@ li a {
 
 p {
     text-align: justify;
+    line-height: 25px;
+}
+
+.p {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    ul li a {
+        padding-left: 30px;
+    }
 }
